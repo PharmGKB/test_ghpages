@@ -10,12 +10,6 @@ github_username:  pharmgkb
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "home"
 kramdown:
   smart_quotes: [ "apos", "apos", "quot", "quot" ]
   typographic_symbols:
