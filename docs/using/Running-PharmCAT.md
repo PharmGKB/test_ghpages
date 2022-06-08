@@ -110,8 +110,6 @@ graph LR
   PI{{"outside call file"}} -. optional .-> P
   P --> R[Reporter]
   R --> RO([HTML report])
-  class M,P,R module
-  class PI optional
 ```
 
 Each module has its own arguments to customize its behavior.
