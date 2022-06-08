@@ -9,7 +9,7 @@ twitter_username: pharmgkb
 github_username:  pharmgkb
 
 # Build settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 defaults:
   -
     scope:
