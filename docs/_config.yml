@@ -9,6 +9,8 @@ twitter_username: pharmgkb
 github_username:  pharmgkb
 
 # Build settings
+plugins:
+  - jemoji
 remote_theme: pmarsceill/just-the-docs
 kramdown:
   smart_quotes: [ "apos", "apos", "quot", "quot" ]

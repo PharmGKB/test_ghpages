@@ -104,14 +104,14 @@ Saving reporter HTML results to /tmp/results/sample.report.html
 Remember that the PharmCAT tool is composed of 3 modules:  the `Named Allele Matcher`, the `Phenotyper`, and the `Reporter`.
 
 ```mermaid
-graph LR;
-  MI{{vcf file}} --> M[Named Allele Matcher];
-  M --> P[Phenotyper];
-  PI{{"outside call file"}} -. optional .-> P;
-  P --> R[Reporter];
-  R --> RO([HTML report]);
-  class M,P,R module;
-  class PI optional;
+graph LR
+  MI{{vcf file}} --> M[Named Allele Matcher]
+  M --> P[Phenotyper]
+  PI{{"outside call file"}} -. optional .-> P
+  P --> R[Reporter]
+  R --> RO([HTML report])
+  class M,P,R module
+  class PI optional
 ```
 
 Each module has its own arguments to customize its behavior.
