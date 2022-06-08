@@ -3,6 +3,7 @@ title: Running PharmCAT
 parent: Using PharmCAT
 nav_order: 2
 render_with_liquid: false
+mermaid: true
 ---
 # Running PharmCAT
 
