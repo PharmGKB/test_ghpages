@@ -3,7 +3,6 @@ title: Running PharmCAT
 parent: Using PharmCAT
 nav_order: 2
 render_with_liquid: false
-mermaid: true
 ---
 # Running PharmCAT
 
@@ -103,7 +102,7 @@ Saving reporter HTML results to /tmp/results/sample.report.html
 
 Remember that the PharmCAT tool is composed of 3 modules:  the `Named Allele Matcher`, the `Phenotyper`, and the `Reporter`.
 
-<div class="mermaid">
+```mermaid
 graph LR;
   MI{{vcf file}} --> M[Named Allele Matcher];
   M --> P[Phenotyper];
@@ -112,7 +111,7 @@ graph LR;
   R --> RO([HTML report]);
   class M,P,R module;
   class PI optional;
-</div>
+```
 
 Each module has its own arguments to customize its behavior.
 
